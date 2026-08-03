@@ -17,7 +17,7 @@
   "dependencies": {
     "chrome-launcher": "^1.1.2",
     "lighthouse": "^13.0.0",
-    "chalk": "^4.1.2",
+    "chalk": "^6.0.0",
     "cli-table3": "^0.6.5",
     "yargs": "^17.7.2"
   },
