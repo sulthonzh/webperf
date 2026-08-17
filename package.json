@@ -11,13 +11,34 @@
     "test": "jest",
     "lint": "eslint src/"
   },
-  "keywords": ["webperf", "lighthouse", "performance", "core-web-vitals", "audit", "cli"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulthonzh/webperf.git"
+  },
+  "keywords": [
+    "webperf",
+    "lighthouse",
+    "performance",
+    "core-web-vitals",
+    "audit",
+    "cli"
+  ],
   "author": "sulthonzh",
   "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "chrome-launcher": "^1.1.2",
     "lighthouse": "^13.0.0",
-    "chalk": "^6.0.0",
+    "chalk": "^4.1.2",
     "cli-table3": "^0.6.5",
     "yargs": "^18.0.0"
   },
